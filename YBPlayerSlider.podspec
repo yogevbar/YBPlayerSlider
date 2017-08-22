@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YBPlayerSlider"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "YBPlayerSlider is simple slider to use, it's include progress of the player and buffer option."
 
   # This description is used to generate tags and improve search results.
