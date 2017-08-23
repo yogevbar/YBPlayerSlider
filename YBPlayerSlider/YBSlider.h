@@ -11,8 +11,9 @@
 
 @protocol YBSliderDelegate <NSObject>
 
--(void)sliderValueChange:(YBSlider*)slider value:(float)value;
--(void)sliderValueWillChange:(YBSlider*)slider;
+-(void)sliderDragBegin:(YBSlider*)slider value:(float)value;
+-(void)sliderDragMove:(YBSlider*)slider value:(float)value;
+-(void)sliderDragEnd:(YBSlider*)slider value:(float)value;
 
 @end
 
